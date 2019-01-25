@@ -1,0 +1,33 @@
+{
+  "_id": "page.relates",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.relates--text.auto_name__11",
+      "_type": "text",
+      "label": "Full name",
+      "name": "auto_name__11"
+    },
+    {
+      "_id": "page.relates--text.auto_name__12",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__12"
+    },
+    {
+      "_id": "page.relates--textarea.auto_name__13",
+      "_type": "textarea",
+      "label": "Address",
+      "name": "auto_name__13"
+    },
+    {
+      "_id": "page.relates--date.auto_name__14",
+      "_type": "date",
+      "hint": "DD MM YYYY",
+      "label": "Date of birth",
+      "name": "auto_name__14"
+    }
+  ],
+  "heading": "Details of the person to whom the application relates",
+  "url": "relates"
+}
