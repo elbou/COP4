@@ -3,6 +3,10 @@
   "_type": "page.form",
   "components": [
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
       "_id": "page.personal-circumstances--textarea.auto_name__15",
       "_type": "textarea",
       "hint": "If you are not in paid employment, please give details of your current circumstances or previous occupation if retired.",
@@ -10,12 +14,11 @@
       "name": "auto_name__15"
     },
     {
-      "_id": "page.personal-circumstances--number.auto_name__16",
-      "_type": "number",
-      "label": "How long have you worked in your current occupation?",
-      "name": "auto_name__16"
-    },
-    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fieldset": true,
+      "$grouping": true,
       "_id": "page.personal-circumstances--fieldset",
       "_type": "fieldset",
       "components": [
@@ -28,12 +31,20 @@
           "html": "How long have you worked in your current occupation?"
         },
         {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
           "_id": "page.personal-circumstances--fieldset--number.auto_name__17",
           "_type": "number",
           "label": "Years",
           "name": "auto_name__17"
         },
         {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
           "_id": "page.personal-circumstances--fieldset--number.auto_name__18",
           "_type": "number",
           "label": "Months",
@@ -42,20 +53,33 @@
       ]
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.personal-circumstances--radios.auto_name__19",
       "_type": "radios",
       "hint": "If Yes, please give the name(s) of the person(s) and (if known) the court reference(s).",
       "items": [
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.personal-circumstances--radios.auto_name__19--radio.auto_value__1",
           "_type": "radio",
           "label": "No",
           "value": "auto_value__1"
         },
         {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
           "_id": "page.personal-circumstances--radios.auto_name__19--radio.auto_value__2",
           "_type": "radio",
           "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
             "_id": "page.personal-circumstances--radios.auto_name__19--radio.auto_value__2--textarea.auto_name__20",
             "_type": "textarea",
             "label": "Details",
@@ -67,11 +91,6 @@
       ],
       "legend": "Have you ever been appointed to act as a deputy or attorney for anyone else?",
       "name": "auto_name__19"
-    },
-    {
-      "_id": "page.personal-circumstances--radios.auto_name__21",
-      "_type": "radios",
-      "name": "auto_name__21"
     }
   ],
   "heading": "Your personal circumstances",
